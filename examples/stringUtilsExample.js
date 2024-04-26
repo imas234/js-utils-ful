@@ -14,6 +14,6 @@ exports.stringUtilsExample = () => {
 
   structuredLogsForFunctionTests(
     countOfSubstring,
-    countOfSubstring("hero word", "l"), // expected: 3
+    countOfSubstring("hero word", "l"), // expected: 0
   );
 };

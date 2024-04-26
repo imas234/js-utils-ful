@@ -2,10 +2,10 @@
  * @param {string} s
  */
 function reverseString(s) {
-  if (typeof s !== 'string') {
-    throw new Error('input must be a string');
+  if (typeof s !== "string") {
+    throw new Error("input must be a string");
   }
-  
+
   return s.split("").reverse().join("");
 }
 
@@ -14,13 +14,13 @@ function reverseString(s) {
  * @param {string} substringToCountFor
  */
 function countOfSubstring(inputString, substringToCountFor) {
-  if (typeof inputString !== 'string') {
-    
+  if (typeof inputString !== "string") {
+    throw new Error("inputString must be a string");
   }
-  if (typeof substringToCountFor !== 'string') {
-    throw new Error('substringToCountFor must be a string'');
+  if (typeof substringToCountFor !== "string") {
+    throw new Error("substringToCountFor must be a string");
   }
-  
+
   // Handle empty substring or empty string
   if (!substringToCountFor || !inputString) {
     return 0;
