@@ -2,6 +2,8 @@ const { reverseString, countOfSubstring } = require("../utils/stringHelpers");
 const { structuredLogsForFunctionTests } = require("../utils/consoleHelpers");
 
 exports.stringUtilsExample = () => {
+  console.log("\n---- STRING UTILS EXAMPLE ----\n");
+
   structuredLogsForFunctionTests(
     reverseString,
     reverseString("1234"), // expected: 4321

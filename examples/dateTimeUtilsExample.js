@@ -2,6 +2,8 @@ const { structuredLogsForFunctionTests } = require("../utils/consoleHelpers");
 const { formattedDateTomeForTimeZone } = require("../utils/dateTimeHelpers");
 
 exports.dateTimeUtilsExample = () => {
+  console.log("\n---- DATE UTILS EXAMPLE ----\n");
+
   const date = new Date(1714133466520);
 
   console.log("Europe/London: UTC+1");

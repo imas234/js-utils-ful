@@ -2,6 +2,8 @@ const { structuredLogsForFunctionTests } = require("../utils/consoleHelpers");
 const { deepMerge } = require("../utils/objHelpers");
 
 exports.objUtilsExample = () => {
+  console.log("\n---- OBJECT UTILS EXAMPLE ----\n");
+
   const objRand = { a: 12 };
   const arrInputA = [1, 2];
   const arrInputB = [3, objRand];
